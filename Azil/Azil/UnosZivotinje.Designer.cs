@@ -48,6 +48,9 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -90,6 +93,7 @@
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(203, 23);
             dateTimePicker1.TabIndex = 4;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // checkBox1
             // 
@@ -111,6 +115,7 @@
             checkBox2.TabIndex = 6;
             checkBox2.Text = "Kastriran";
             checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // textBox4
             // 
@@ -227,11 +232,47 @@
             label9.Text = "Slika";
             label9.Click += label9_Click;
             // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(130, 228);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(36, 19);
+            radioButton1.TabIndex = 19;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "M";
+            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(206, 229);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(32, 19);
+            radioButton2.TabIndex = 20;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Ž";
+            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(38, 228);
+            label10.Name = "label10";
+            label10.Size = new Size(30, 15);
+            label10.TabIndex = 21;
+            label10.Text = "Spol";
+            // 
             // UnosZivotinje
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 450);
+            Controls.Add(label10);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton1);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -281,5 +322,8 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private Label label10;
     }
 }

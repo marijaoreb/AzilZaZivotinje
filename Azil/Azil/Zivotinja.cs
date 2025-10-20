@@ -14,8 +14,8 @@ namespace Azil
         string _spol;
         int _dob;
         string _datum;
-        bool _cijepljen;
-        bool _kastriran;
+        bool _cijepljen = false;
+        bool _kastriran = false;
         string _napomena;
         string _slika;
 
@@ -41,6 +41,12 @@ namespace Azil
         {
             get { return _spol; }
             set { _spol = value; }
+        }
+
+        public int Dob 
+        { 
+            get { return _dob; }
+            set { _dob = value; }
         }
 
         public string Datum

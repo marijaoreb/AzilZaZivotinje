@@ -19,10 +19,7 @@ namespace Azil
 
         private void button5_Click(object sender, EventArgs e)
         {
-            // unos zivotinje
-            this.Hide();
-            UnosZivotinje unos = new UnosZivotinje();
-            unos.Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -32,7 +29,18 @@ namespace Azil
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // unos zivotinje
+            this.Hide();
+            UnosZivotinje unos = new UnosZivotinje();
+            unos.Show();
+        }
 
+        private void btnPregled_Click(object sender, EventArgs e)
+        {
+            // pregled zivotinja
+            this.Hide();
+            PregledZivotinja pregled = new PregledZivotinja();
+            pregled.Show();
         }
     }
 }

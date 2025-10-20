@@ -34,7 +34,7 @@
             btnUdomljavanje = new Button();
             btnStatistika = new Button();
             btnIzlaz = new Button();
-            bntUnos = new Button();
+            btnUnos = new Button();
             SuspendLayout();
             // 
             // btnPregled
@@ -43,8 +43,9 @@
             btnPregled.Name = "btnPregled";
             btnPregled.Size = new Size(244, 54);
             btnPregled.TabIndex = 1;
-            btnPregled.Text = "Pregled";
+            btnPregled.Text = "Pregled životinja";
             btnPregled.UseVisualStyleBackColor = true;
+            btnPregled.Click += btnPregled_Click;
             // 
             // btnFiltriranje
             // 
@@ -85,29 +86,29 @@
             btnIzlaz.UseVisualStyleBackColor = true;
             btnIzlaz.Click += button6_Click;
             // 
-            // bntUnos
+            // btnUnos
             // 
-            bntUnos.Location = new Point(61, 46);
-            bntUnos.Name = "bntUnos";
-            bntUnos.Size = new Size(244, 54);
-            bntUnos.TabIndex = 6;
-            bntUnos.Text = "Unos životinje";
-            bntUnos.UseVisualStyleBackColor = true;
-            bntUnos.Click += button1_Click;
+            btnUnos.Location = new Point(61, 46);
+            btnUnos.Name = "btnUnos";
+            btnUnos.Size = new Size(244, 54);
+            btnUnos.TabIndex = 6;
+            btnUnos.Text = "Unos životinje";
+            btnUnos.UseVisualStyleBackColor = true;
+            btnUnos.Click += button1_Click;
             // 
-            // Form1
+            // Pocetna
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(379, 450);
-            Controls.Add(bntUnos);
+            Controls.Add(btnUnos);
             Controls.Add(btnIzlaz);
             Controls.Add(btnStatistika);
             Controls.Add(btnUdomljavanje);
             Controls.Add(btnFiltriranje);
             Controls.Add(btnPregled);
-            Name = "Form1";
+            Name = "Pocetna";
             Text = "Azil za životinje";
             Load += Form1_Load;
             ResumeLayout(false);
@@ -119,6 +120,6 @@
         private Button btnUdomljavanje;
         private Button btnStatistika;
         private Button btnIzlaz;
-        private Button bntUnos;
+        private Button btnUnos;
     }
 }

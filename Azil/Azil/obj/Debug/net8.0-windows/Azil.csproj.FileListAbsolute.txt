@@ -15,3 +15,6 @@ C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.pd
 C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.genruntimeconfig.cache
 C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\ref\Azil.dll
 C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.Pocetna.resources
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.UnosZivotinje.resources
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.sourcelink.json
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.PregledZivotinja.resources

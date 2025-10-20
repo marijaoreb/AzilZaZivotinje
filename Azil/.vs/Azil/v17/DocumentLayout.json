@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\unoszivotinje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\pregledzivotinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\pregledzivotinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\pregledzivotinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\pregledzivotinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|solutionrelative:azil\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D95FD910-2A64-4D80-B026-7D8254167161}|Azil\\Azil.csproj|c:\\users\\ana oreb\\desktop\\marija\\azil\\azil\\azil\\zivotinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,37 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PregledZivotinja.cs",
+              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\PregledZivotinja.cs",
+              "RelativeDocumentMoniker": "Azil\\PregledZivotinja.cs",
+              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\PregledZivotinja.cs",
+              "RelativeToolTip": "Azil\\PregledZivotinja.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAWwIkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T09:28:30.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PregledZivotinja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\PregledZivotinja.cs",
+              "RelativeDocumentMoniker": "Azil\\PregledZivotinja.cs",
+              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\PregledZivotinja.cs [Design]",
+              "RelativeToolTip": "Azil\\PregledZivotinja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T09:26:19.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnosZivotinje.cs",
-              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\UnosZivotinje.cs",
-              "RelativeDocumentMoniker": "Azil\\UnosZivotinje.cs",
-              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\UnosZivotinje.cs",
-              "RelativeToolTip": "Azil\\UnosZivotinje.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAArwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T13:00:43.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Zivotinja.cs",
-              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Zivotinja.cs",
-              "RelativeDocumentMoniker": "Azil\\Zivotinja.cs",
-              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Zivotinja.cs",
-              "RelativeToolTip": "Azil\\Zivotinja.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T12:52:31.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UnosZivotinje.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\UnosZivotinje.cs",
               "RelativeDocumentMoniker": "Azil\\UnosZivotinje.cs",
@@ -72,7 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "UnosZivotinje.cs",
+              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\UnosZivotinje.cs",
+              "RelativeDocumentMoniker": "Azil\\UnosZivotinje.cs",
+              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\UnosZivotinje.cs",
+              "RelativeToolTip": "Azil\\UnosZivotinje.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAjwHEAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T13:00:43.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Pocetna.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Pocetna.cs",
               "RelativeDocumentMoniker": "Azil\\Pocetna.cs",
@@ -84,15 +104,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Pocetna.cs",
               "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Pocetna.cs",
               "RelativeDocumentMoniker": "Azil\\Pocetna.cs",
               "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Pocetna.cs",
               "RelativeToolTip": "Azil\\Pocetna.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA9wBgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAtwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T10:49:49.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Zivotinja.cs",
+              "DocumentMoniker": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Zivotinja.cs",
+              "RelativeDocumentMoniker": "Azil\\Zivotinja.cs",
+              "ToolTip": "C:\\Users\\ANA OREB\\Desktop\\marija\\azil\\Azil\\Azil\\Zivotinja.cs",
+              "RelativeToolTip": "Azil\\Zivotinja.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:52:31.533Z",
               "EditorCaption": ""
             }
           ]
