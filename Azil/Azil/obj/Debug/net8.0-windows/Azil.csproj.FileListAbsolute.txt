@@ -1,0 +1,17 @@
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\bin\Debug\net8.0-windows\Azil.exe
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\bin\Debug\net8.0-windows\Azil.deps.json
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\bin\Debug\net8.0-windows\Azil.runtimeconfig.json
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\bin\Debug\net8.0-windows\Azil.dll
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\bin\Debug\net8.0-windows\Azil.pdb
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.Properties.Resources.resources
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.csproj.GenerateResource.cache
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.AssemblyInfoInputs.cache
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.AssemblyInfo.cs
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.csproj.CoreCompileInputs.cache
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.dll
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\refint\Azil.dll
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.pdb
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.genruntimeconfig.cache
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\ref\Azil.dll
+C:\Users\ANA OREB\Desktop\marija\azil\Azil\Azil\obj\Debug\net8.0-windows\Azil.Pocetna.resources
