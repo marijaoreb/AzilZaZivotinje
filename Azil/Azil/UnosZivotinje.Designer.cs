@@ -51,6 +51,8 @@
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             label10 = new Label();
+            button1 = new Button();
+            btnSlika = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -61,7 +63,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(203, 23);
             textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -69,7 +70,6 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(203, 23);
             textBox2.TabIndex = 1;
-            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -77,7 +77,6 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(203, 23);
             textBox3.TabIndex = 2;
-            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // numericUpDown1
             // 
@@ -85,7 +84,6 @@
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(203, 23);
             numericUpDown1.TabIndex = 3;
-            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // dateTimePicker1
             // 
@@ -93,7 +91,6 @@
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(203, 23);
             dateTimePicker1.TabIndex = 4;
-            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // checkBox1
             // 
@@ -105,7 +102,6 @@
             checkBox1.TabIndex = 5;
             checkBox1.Text = "Cijepljen";
             checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // checkBox2
             // 
@@ -117,7 +113,6 @@
             checkBox2.TabIndex = 6;
             checkBox2.Text = "Kastriran";
             checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // textBox4
             // 
@@ -125,7 +120,6 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(203, 23);
             textBox4.TabIndex = 7;
-            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // openFileDialog1
             // 
@@ -134,9 +128,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(130, 329);
+            pictureBox1.Location = new Point(23, 329);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(203, 50);
+            pictureBox1.Size = new Size(188, 64);
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
@@ -160,7 +154,6 @@
             label1.Size = new Size(43, 21);
             label1.TabIndex = 10;
             label1.Text = "Vrsta";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -171,7 +164,6 @@
             label2.Size = new Size(32, 21);
             label2.TabIndex = 11;
             label2.Text = "Ime";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -210,7 +202,6 @@
             label6.Name = "label6";
             label6.Size = new Size(0, 15);
             label6.TabIndex = 15;
-            label6.Click += label6_Click;
             // 
             // label7
             // 
@@ -229,7 +220,6 @@
             label8.Size = new Size(75, 21);
             label8.TabIndex = 17;
             label8.Text = "Napomena";
-            label8.Click += label8_Click;
             // 
             // label9
             // 
@@ -237,10 +227,8 @@
             label9.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label9.Location = new Point(27, 329);
             label9.Name = "label9";
-            label9.Size = new Size(38, 21);
+            label9.Size = new Size(0, 21);
             label9.TabIndex = 18;
-            label9.Text = "Slika";
-            label9.Click += label9_Click;
             // 
             // radioButton1
             // 
@@ -253,7 +241,6 @@
             radioButton1.TabStop = true;
             radioButton1.Text = "M";
             radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -266,7 +253,6 @@
             radioButton2.TabStop = true;
             radioButton2.Text = "Ž";
             radioButton2.UseVisualStyleBackColor = true;
-            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
             // 
             // label10
             // 
@@ -278,11 +264,34 @@
             label10.TabIndex = 21;
             label10.Text = "Spol";
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button1.Location = new Point(49, 399);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 39);
+            button1.TabIndex = 22;
+            button1.Text = "Nazad";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // btnSlika
+            // 
+            btnSlika.Location = new Point(223, 328);
+            btnSlika.Name = "btnSlika";
+            btnSlika.Size = new Size(110, 23);
+            btnSlika.TabIndex = 23;
+            btnSlika.Text = "Odaberi sliku";
+            btnSlika.UseVisualStyleBackColor = true;
+            btnSlika.Click += button2_Click;
+            // 
             // UnosZivotinje
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 450);
+            Controls.Add(btnSlika);
+            Controls.Add(button1);
             Controls.Add(label10);
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
@@ -338,5 +347,7 @@
         private RadioButton radioButton1;
         private RadioButton radioButton2;
         private Label label10;
+        private Button button1;
+        private Button btnSlika;
     }
 }

@@ -68,6 +68,7 @@
             btnUdomljavanje.TabIndex = 3;
             btnUdomljavanje.Text = "Udomljavanje";
             btnUdomljavanje.UseVisualStyleBackColor = true;
+            btnUdomljavanje.Click += btnUdomljavanje_Click;
             // 
             // btnStatistika
             // 

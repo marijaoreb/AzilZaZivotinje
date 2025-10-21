@@ -54,25 +54,57 @@ namespace Azil
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             //svi zapisi iz datoteke
+            string ispisCijepljen, ispisKastiran;
             int index = listBox1.SelectedIndex;
             if (index < 0 || index >= linije.Count) return;
 
             string linija = linije[index];
             string[] podaci = linija.Split("|");
 
-            if (podaci.Length >= 9)
+            //11 zato sta je toliko vertikalnih crta
+            if (podaci.Length >= 11)
             {
-                textBox1.Text =
-                    $"Ime: {podaci[0]}\r\n" +
-                    $"Vrsta: {podaci[1]}\r\n" +
-                    $"Pasmina: {podaci[2]}\r\n" +
-                    $"Spol: {podaci[3]}\r\n" +
-                    $"Dob: {podaci[4]}\r\n" +
-                    $"Datum dolaska: {podaci[5]}\r\n" +
-                    $"Cijepljen: {podaci[6]}\r\n" +
-                    $"Kastriran: {podaci[7]}\r\n" +
-                    $"Napomena: {podaci[8]}";
-                //dodati sliku
+                if (podaci[8] == "False")
+                {
+                    ispisCijepljen = "ne";
+                }
+                else
+                {
+                    ispisCijepljen = "da";
+                }
+
+                if (podaci[9] == "False")
+                {
+                    ispisKastiran = "ne";
+                }
+                else
+                {
+                    ispisKastiran = "da";
+                }
+                    textBox1.Text =
+                        $"Ime: {podaci[0]}\r\n" +
+                        $"Vrsta: {podaci[1]}\r\n" +
+                        $"Pasmina: {podaci[2]}\r\n" +
+                        $"Spol: {podaci[3]}\r\n" +
+                        $"Dob: {podaci[4]}\r\n" +
+                        $"Datum dolaska: {podaci[6]}\r\n" +
+                        $"Cijepljen: {ispisCijepljen}\r\n" +
+                        $"Kastriran: {ispisKastiran}\r\n" +
+                        $"Napomena: {podaci[10]}";
+                string imeSlike = podaci[5]; // samo ime, npr. "luna.jpg"
+                string folderSlike = Path.Combine(Application.StartupPath, "Slike");
+                string punaPutanja = Path.Combine(folderSlike, imeSlike);
+
+                if (File.Exists(punaPutanja))
+                {
+                    pictureBox1.Image = Image.FromFile(punaPutanja);
+                    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                }
+                else
+                {
+                    pictureBox1.Image = null;
+                }
+
             }
         }
 
@@ -165,6 +197,14 @@ namespace Azil
             {
                 MessageBox.Show("Ime i vrsta ne smiju biti prazni.", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //povratak na pocetnu formu
+            Pocetna pocetna = new Pocetna();    
+            pocetna.Show();
+            this.Close();
         }
     }
 }

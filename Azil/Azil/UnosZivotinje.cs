@@ -22,61 +22,6 @@ namespace Azil
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            //unos imena
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            //unos vrste
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            //unos pasmine
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-            //unos dobi
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            //cijepljen
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            //unos napomene
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSpremi_Click(object sender, EventArgs e)
         {
             //spremanje unesene zivotinje u datoteku
@@ -96,22 +41,26 @@ namespace Azil
                     spol = "Ženski";
                 }
                 int dob = (int)numericUpDown1.Value;
-                string datum = dateTimePicker1.Value.ToString("dd.MM.yyyy.");
+                string datumD = dateTimePicker1.Value.ToString("dd.MM.yyyy.");
                 bool cijepljen = checkBox1.Checked;
                 bool kastriran = checkBox2.Checked;
 
-                if(ime == "" || vrsta == "" || pasmina == "" || spol == "" || dob <= 0)
+                if (ime == "" || vrsta == "" || pasmina == "" || spol == "" || dob <= 0 || putanjaSlike == "")
                 {
                     MessageBox.Show("Sva polja osim napomene moraju biti popunjena!", "Greška: ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                string slika = "ovo treba napraviti";
+                //nitko nije udomljen na pocetku
+                string udomitelj = "nitko";
+                string kontakt = "nema";
+                string datumU = "nemaDatuma";
 
-                Zivotinja z = new Zivotinja(ime, vrsta, pasmina, spol, dob, datum,cijepljen, kastriran, napomena, slika);
+                Zivotinja z = new Zivotinja(ime, vrsta, pasmina, spol, dob, datumD, datumU, cijepljen, kastriran, napomena, udomitelj, kontakt, putanjaSlike);
 
                 string putanja = Path.Combine(Application.StartupPath, "zivotinje.txt");
                 using (StreamWriter sw = new StreamWriter(putanja, true))
                 {
-                    sw.WriteLine($"{z.Ime}|{z.Vrsta}|{z.Pasmina}|{z.Spol}|{z.Dob}|{z.Datum}|{z.Cijepljen}|{z.Kastriran}|{z.Napomena}");
+                    sw.WriteLine($"{z.Ime}|{z.Vrsta}|{z.Pasmina}|{z.Spol}|{z.Dob}|{z.Slika}|{z.DatumD}|{z.DatumU}|{z.Cijepljen}|{z.Kastriran}|{z.Napomena}|{z.Udomitelj}|{z.Kontakt}");
                 }
 
                 MessageBox.Show("Životinja uspješno spremljena!", "Uspjeh", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -135,24 +84,38 @@ namespace Azil
             }
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            //unos datuma dolaska
+            //povratak na pocetnu
+            Pocetna pocetna = new Pocetna();
+            pocetna.Show();
+            this.Close();
         }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private string putanjaSlike = "";
+        private void button2_Click(object sender, EventArgs e)
         {
-            //kastriran
-        }
+            //upload slike
+            openFileDialog1.Title = "Odaberite sliku životinje";
+            openFileDialog1.Filter = "Slike (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            //spol je muski
-        }
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string originalnaPutanja = openFileDialog1.FileName;
+                pictureBox1.Image = Image.FromFile(originalnaPutanja);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            //spol je zenski
+                // Folder "Slike" unutar projekta
+                string folderSlike = Path.Combine(Application.StartupPath, "Slike");
+                Directory.CreateDirectory(folderSlike);
+
+                // Kopiraj sliku u taj folder
+                string imeDatoteke = Path.GetFileName(originalnaPutanja);
+                string destinacija = Path.Combine(folderSlike, imeDatoteke);
+                File.Copy(originalnaPutanja, destinacija, true);
+
+                // Spremi samo ime slike (npr. "luna.jpg")
+                putanjaSlike = imeDatoteke;
+            }
         }
     }
 }

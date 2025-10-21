@@ -1,0 +1,23 @@
+# Visual Studio privremene datoteke
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+
+# Build folderi
+bin/
+obj/
+
+# Rider i drugi IDE privremeni folderi
+.idea/
+
+# Datoteke s konfiguracijama koje ne treba verzionirati
+*.log
+*.pdb
+*.exe
+*.dll
+
+# Specifično za tvoj projekt
+*.vsidx
+

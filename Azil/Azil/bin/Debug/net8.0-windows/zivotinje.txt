@@ -1,2 +1,3 @@
-Mica;mačka;sfinks;Ženski;3;20.10.2025;False;True;ne voli pse
-Lujo;Pas;njemački ovčar;Muški;5;30.09.2025;True;True;voli smetati Mici
+
+MIcika|mačka|domaća|Ženski|5|macka.jpg|08.10.2025.|nemaDatuma|False|True||nitko|nema
+Lujo|pas|buldog|Muški|7|bulldog.jpg|29.09.2025.|nemaDatuma|True|True|max i lujo su najbolji prijatelji|nitko|nema

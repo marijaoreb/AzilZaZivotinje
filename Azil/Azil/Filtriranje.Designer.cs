@@ -28,29 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lsbFiltriranje = new ListBox();
-            pbFiltriranje = new PictureBox();
+            listBox1 = new ListBox();
             label1 = new Label();
-            tbfiltriranje = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)pbFiltriranje).BeginInit();
+            button1 = new Button();
+            comboBox1 = new ComboBox();
+            button2 = new Button();
             SuspendLayout();
             // 
-            // lsbFiltriranje
+            // listBox1
             // 
-            lsbFiltriranje.FormattingEnabled = true;
-            lsbFiltriranje.ItemHeight = 15;
-            lsbFiltriranje.Location = new Point(88, 63);
-            lsbFiltriranje.Name = "lsbFiltriranje";
-            lsbFiltriranje.Size = new Size(159, 94);
-            lsbFiltriranje.TabIndex = 0;
-            // 
-            // pbFiltriranje
-            // 
-            pbFiltriranje.Location = new Point(88, 178);
-            pbFiltriranje.Name = "pbFiltriranje";
-            pbFiltriranje.Size = new Size(159, 111);
-            pbFiltriranje.TabIndex = 1;
-            pbFiltriranje.TabStop = false;
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(87, 216);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(159, 94);
+            listBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -62,34 +54,57 @@
             label1.TabIndex = 2;
             label1.Text = "Filtriranje";
             // 
-            // tbfiltriranje
+            // button1
             // 
-            tbfiltriranje.Location = new Point(88, 325);
-            tbfiltriranje.Name = "tbfiltriranje";
-            tbfiltriranje.Size = new Size(100, 23);
-            tbfiltriranje.TabIndex = 3;
+            button1.Location = new Point(113, 395);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Nazad";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // frmFiltriranje
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(116, 69);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 5;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(236, 395);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 6;
+            button2.Text = "Poništi";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // Filtriranje
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(379, 450);
-            Controls.Add(tbfiltriranje);
+            Controls.Add(button2);
+            Controls.Add(comboBox1);
+            Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(pbFiltriranje);
-            Controls.Add(lsbFiltriranje);
-            Name = "frmFiltriranje";
+            Controls.Add(listBox1);
+            Name = "Filtriranje";
             Text = "frmFiltriranje";
-            ((System.ComponentModel.ISupportInitialize)pbFiltriranje).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ListBox lsbFiltriranje;
-        private PictureBox pbFiltriranje;
+        private ListBox listBox1;
         private Label label1;
-        private TextBox tbfiltriranje;
+        private Button button1;
+        private ComboBox comboBox1;
+        private Button button2;
     }
 }
