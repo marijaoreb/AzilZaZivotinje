@@ -98,9 +98,10 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(38, 250);
+            checkBox1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            checkBox1.Location = new Point(27, 263);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(72, 19);
+            checkBox1.Size = new Size(79, 25);
             checkBox1.TabIndex = 5;
             checkBox1.Text = "Cijepljen";
             checkBox1.UseVisualStyleBackColor = true;
@@ -109,9 +110,10 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(207, 250);
+            checkBox2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            checkBox2.Location = new Point(206, 263);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(72, 19);
+            checkBox2.Size = new Size(86, 25);
             checkBox2.TabIndex = 6;
             checkBox2.Text = "Kastriran";
             checkBox2.UseVisualStyleBackColor = true;
@@ -140,9 +142,10 @@
             // 
             // btnSpremi
             // 
+            btnSpremi.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnSpremi.Location = new Point(258, 399);
             btnSpremi.Name = "btnSpremi";
-            btnSpremi.Size = new Size(75, 23);
+            btnSpremi.Size = new Size(75, 39);
             btnSpremi.TabIndex = 9;
             btnSpremi.Text = "Spremi";
             btnSpremi.UseVisualStyleBackColor = true;
@@ -151,9 +154,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(35, 69);
+            label1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label1.Location = new Point(23, 63);
             label1.Name = "label1";
-            label1.Size = new Size(33, 15);
+            label1.Size = new Size(43, 21);
             label1.TabIndex = 10;
             label1.Text = "Vrsta";
             label1.Click += label1_Click;
@@ -161,9 +165,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(35, 30);
+            label2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label2.Location = new Point(25, 24);
             label2.Name = "label2";
-            label2.Size = new Size(27, 15);
+            label2.Size = new Size(32, 21);
             label2.TabIndex = 11;
             label2.Text = "Ime";
             label2.Click += label2_Click;
@@ -171,27 +176,30 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(35, 112);
+            label3.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label3.Location = new Point(23, 106);
             label3.Name = "label3";
-            label3.Size = new Size(52, 15);
+            label3.Size = new Size(60, 21);
             label3.TabIndex = 12;
             label3.Text = "Pasmina";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(35, 156);
+            label4.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label4.Location = new Point(23, 150);
             label4.Name = "label4";
-            label4.Size = new Size(29, 15);
+            label4.Size = new Size(34, 21);
             label4.TabIndex = 13;
             label4.Text = "Dob";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(35, 193);
+            label5.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label5.Location = new Point(23, 187);
             label5.Name = "label5";
-            label5.Size = new Size(86, 15);
+            label5.Size = new Size(101, 21);
             label5.TabIndex = 14;
             label5.Text = "Datum dolaska";
             // 
@@ -215,9 +223,10 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(38, 297);
+            label8.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label8.Location = new Point(27, 297);
             label8.Name = "label8";
-            label8.Size = new Size(66, 15);
+            label8.Size = new Size(75, 21);
             label8.TabIndex = 17;
             label8.Text = "Napomena";
             label8.Click += label8_Click;
@@ -225,9 +234,10 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(38, 329);
+            label9.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label9.Location = new Point(27, 329);
             label9.Name = "label9";
-            label9.Size = new Size(31, 15);
+            label9.Size = new Size(38, 21);
             label9.TabIndex = 18;
             label9.Text = "Slika";
             label9.Click += label9_Click;
@@ -235,9 +245,10 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             radioButton1.Location = new Point(130, 228);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(36, 19);
+            radioButton1.Size = new Size(39, 25);
             radioButton1.TabIndex = 19;
             radioButton1.TabStop = true;
             radioButton1.Text = "M";
@@ -247,9 +258,10 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             radioButton2.Location = new Point(206, 229);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(32, 19);
+            radioButton2.Size = new Size(37, 25);
             radioButton2.TabIndex = 20;
             radioButton2.TabStop = true;
             radioButton2.Text = "Ž";
@@ -259,9 +271,10 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(38, 228);
+            label10.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            label10.Location = new Point(27, 228);
             label10.Name = "label10";
-            label10.Size = new Size(30, 15);
+            label10.Size = new Size(36, 21);
             label10.TabIndex = 21;
             label10.Text = "Spol";
             // 

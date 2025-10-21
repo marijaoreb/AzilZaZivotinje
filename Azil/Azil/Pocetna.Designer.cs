@@ -39,6 +39,7 @@
             // 
             // btnPregled
             // 
+            btnPregled.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnPregled.Location = new Point(61, 106);
             btnPregled.Name = "btnPregled";
             btnPregled.Size = new Size(244, 54);
@@ -49,6 +50,7 @@
             // 
             // btnFiltriranje
             // 
+            btnFiltriranje.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnFiltriranje.Location = new Point(61, 166);
             btnFiltriranje.Name = "btnFiltriranje";
             btnFiltriranje.Size = new Size(244, 54);
@@ -59,6 +61,7 @@
             // 
             // btnUdomljavanje
             // 
+            btnUdomljavanje.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnUdomljavanje.Location = new Point(61, 226);
             btnUdomljavanje.Name = "btnUdomljavanje";
             btnUdomljavanje.Size = new Size(244, 54);
@@ -68,6 +71,7 @@
             // 
             // btnStatistika
             // 
+            btnStatistika.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnStatistika.Location = new Point(61, 286);
             btnStatistika.Name = "btnStatistika";
             btnStatistika.Size = new Size(244, 54);
@@ -78,6 +82,7 @@
             // 
             // btnIzlaz
             // 
+            btnIzlaz.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnIzlaz.Location = new Point(61, 346);
             btnIzlaz.Name = "btnIzlaz";
             btnIzlaz.Size = new Size(244, 54);
@@ -88,6 +93,7 @@
             // 
             // btnUnos
             // 
+            btnUnos.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnUnos.Location = new Point(61, 46);
             btnUnos.Name = "btnUnos";
             btnUnos.Size = new Size(244, 54);

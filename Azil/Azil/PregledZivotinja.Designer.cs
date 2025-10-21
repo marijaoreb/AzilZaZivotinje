@@ -40,9 +40,10 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label1.Location = new Point(191, 29);
             label1.Name = "label1";
-            label1.Size = new Size(94, 15);
+            label1.Size = new Size(110, 21);
             label1.TabIndex = 0;
             label1.Text = "Pregled životinja";
             // 
@@ -78,6 +79,7 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             button1.Location = new Point(386, 319);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
@@ -88,9 +90,10 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             button2.Location = new Point(386, 366);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(75, 29);
             button2.TabIndex = 5;
             button2.Text = "Brisanje";
             button2.UseVisualStyleBackColor = true;
