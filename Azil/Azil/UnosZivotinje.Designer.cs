@@ -130,14 +130,14 @@
             // 
             pictureBox1.Location = new Point(23, 329);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(188, 64);
+            pictureBox1.Size = new Size(188, 130);
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
             // btnSpremi
             // 
             btnSpremi.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            btnSpremi.Location = new Point(258, 399);
+            btnSpremi.Location = new Point(243, 465);
             btnSpremi.Name = "btnSpremi";
             btnSpremi.Size = new Size(75, 39);
             btnSpremi.TabIndex = 9;
@@ -267,7 +267,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            button1.Location = new Point(49, 399);
+            button1.Location = new Point(49, 465);
             button1.Name = "button1";
             button1.Size = new Size(75, 39);
             button1.TabIndex = 22;
@@ -289,7 +289,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 450);
+            ClientSize = new Size(384, 516);
             Controls.Add(btnSlika);
             Controls.Add(button1);
             Controls.Add(label10);

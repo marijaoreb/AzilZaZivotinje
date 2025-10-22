@@ -7,11 +7,6 @@ namespace Azil
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button6_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -19,7 +14,10 @@ namespace Azil
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            //statistika
+            this.Hide();
+            Statistika statistika = new Statistika();
+            statistika.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

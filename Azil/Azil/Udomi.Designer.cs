@@ -31,7 +31,7 @@
             btnudomi = new Button();
             gbprikaz = new GroupBox();
             btnnatrag = new Button();
-            pbZivotinja = new PictureBox();
+            pictureBox1 = new PictureBox();
             btnnaprijed = new Button();
             gbudomitelj = new GroupBox();
             textBoxKontakt = new MaskedTextBox();
@@ -42,15 +42,16 @@
             lblprezimeudomitelja = new Label();
             lblime = new Label();
             lbldatumudomljavanja = new Label();
+            button1 = new Button();
             gbprikaz.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbZivotinja).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             gbudomitelj.SuspendLayout();
             SuspendLayout();
             // 
             // btnudomi
             // 
             btnudomi.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            btnudomi.Location = new Point(149, 399);
+            btnudomi.Location = new Point(150, 432);
             btnudomi.Name = "btnudomi";
             btnudomi.Size = new Size(75, 39);
             btnudomi.TabIndex = 0;
@@ -61,7 +62,7 @@
             // gbprikaz
             // 
             gbprikaz.Controls.Add(btnnatrag);
-            gbprikaz.Controls.Add(pbZivotinja);
+            gbprikaz.Controls.Add(pictureBox1);
             gbprikaz.Controls.Add(btnnaprijed);
             gbprikaz.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             gbprikaz.Location = new Point(12, 12);
@@ -82,13 +83,13 @@
             btnnatrag.UseVisualStyleBackColor = true;
             btnnatrag.Click += btnnatrag_Click;
             // 
-            // pbZivotinja
+            // pictureBox1
             // 
-            pbZivotinja.Location = new Point(18, 28);
-            pbZivotinja.Name = "pbZivotinja";
-            pbZivotinja.Size = new Size(144, 150);
-            pbZivotinja.TabIndex = 0;
-            pbZivotinja.TabStop = false;
+            pictureBox1.Location = new Point(18, 28);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(144, 150);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // btnnaprijed
             // 
@@ -114,7 +115,7 @@
             gbudomitelj.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             gbudomitelj.Location = new Point(12, 232);
             gbudomitelj.Name = "gbudomitelj";
-            gbudomitelj.Size = new Size(355, 161);
+            gbudomitelj.Size = new Size(355, 177);
             gbudomitelj.TabIndex = 0;
             gbudomitelj.TabStop = false;
             gbudomitelj.Text = "Udomitelj";
@@ -183,18 +184,29 @@
             lbldatumudomljavanja.TabIndex = 4;
             lbldatumudomljavanja.Text = "Datum udomljavnja";
             // 
+            // button1
+            // 
+            button1.Location = new Point(12, 432);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 39);
+            button1.TabIndex = 12;
+            button1.Text = "Nazad";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Udomi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(379, 450);
+            ClientSize = new Size(379, 483);
+            Controls.Add(button1);
             Controls.Add(gbudomitelj);
             Controls.Add(gbprikaz);
             Controls.Add(btnudomi);
             Name = "Udomi";
             Text = "Udomi";
             gbprikaz.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pbZivotinja).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             gbudomitelj.ResumeLayout(false);
             gbudomitelj.PerformLayout();
             ResumeLayout(false);
@@ -212,9 +224,10 @@
         private Label lblprezimeudomitelja;
         private Label lblime;
         private Label lbldatumudomljavanja;
-        private PictureBox pbZivotinja;
+        private PictureBox pictureBox1;
         private Button btnnaprijed;
         private Button btnnatrag;
         private MaskedTextBox textBoxKontakt;
+        private Button button1;
     }
 }

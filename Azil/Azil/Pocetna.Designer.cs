@@ -117,7 +117,6 @@
             Controls.Add(btnPregled);
             Name = "Pocetna";
             Text = "Azil za životinje";
-            Load += Form1_Load;
             ResumeLayout(false);
         }
 

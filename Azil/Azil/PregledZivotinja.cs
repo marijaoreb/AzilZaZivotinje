@@ -108,17 +108,6 @@ namespace Azil
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            //slika odabrane zivotinje
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            //detaljan prikaz podataka
-            //sve ih prikazati u istom textboxu, svaki podatak u novom redu
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             // brisanje zivotinje

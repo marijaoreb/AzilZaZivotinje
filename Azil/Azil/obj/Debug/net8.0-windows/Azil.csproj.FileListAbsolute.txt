@@ -21,3 +21,4 @@ C:\Users\ANA OREB\Desktop\marija\AzilZaZivotinje\Azil\Azil\obj\Debug\net8.0-wind
 C:\Users\ANA OREB\Desktop\marija\AzilZaZivotinje\Azil\Azil\obj\Debug\net8.0-windows\Azil.pdb
 C:\Users\ANA OREB\Desktop\marija\AzilZaZivotinje\Azil\Azil\obj\Debug\net8.0-windows\Azil.genruntimeconfig.cache
 C:\Users\ANA OREB\Desktop\marija\AzilZaZivotinje\Azil\Azil\obj\Debug\net8.0-windows\ref\Azil.dll
+C:\Users\ANA OREB\Desktop\marija\AzilZaZivotinje\Azil\Azil\obj\Debug\net8.0-windows\Azil.Admin.resources

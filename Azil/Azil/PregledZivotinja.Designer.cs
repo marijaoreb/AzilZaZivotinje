@@ -55,7 +55,6 @@
             pictureBox1.Size = new Size(232, 169);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // listBox1
             // 
@@ -76,7 +75,6 @@
             textBox1.ScrollBars = ScrollBars.Vertical;
             textBox1.Size = new Size(232, 221);
             textBox1.TabIndex = 3;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 

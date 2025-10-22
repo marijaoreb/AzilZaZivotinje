@@ -39,9 +39,9 @@
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(87, 216);
+            listBox1.Location = new Point(87, 141);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(159, 94);
+            listBox1.Size = new Size(159, 169);
             listBox1.TabIndex = 0;
             // 
             // label1
@@ -67,9 +67,9 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(116, 69);
+            comboBox1.Location = new Point(81, 69);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
+            comboBox1.Size = new Size(176, 23);
             comboBox1.TabIndex = 5;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 

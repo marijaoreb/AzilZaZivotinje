@@ -76,6 +76,8 @@ namespace Azil
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 dateTimePicker1.Value = DateTime.Now;
+                pictureBox1.Image = null;
+                putanjaSlike = "";
 
             }
             catch (Exception ex)
