@@ -3,3 +3,4 @@ Lujo|pas|buldog|Muški|7|bulldog.jpg|29.09.2025.|nemaDatuma|True|True|max i lujo
 Max|pas|njemački ovčar|Muški|4|pas.jpg|08.09.2025.|22.10.2025.|True|False|max i lujo su najbolji prijatelji|Marija Oreb|123456
 Žarko|papiga|žako|Muški|3|zako.jpg|09.04.2025.|nemaDatuma|False|False||nitko|nema
 Zekani Pekani|kunić|europski|Ženski|6|kunic.jpg|14.01.2025.|22.10.2025.|False|True|alergičan na mrkvu|Marija Oreb|123456
+pas|pas|pas|Muški|2|pozadina.jpg|23.10.2025.|23.10.2025.|True|True|malo je šašav|ivana oreb|1234

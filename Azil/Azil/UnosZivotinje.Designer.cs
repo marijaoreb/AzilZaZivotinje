@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UnosZivotinje));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
@@ -95,24 +96,26 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.Transparent;
             checkBox1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             checkBox1.Location = new Point(27, 263);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(79, 25);
             checkBox1.TabIndex = 5;
             checkBox1.Text = "Cijepljen";
-            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.UseVisualStyleBackColor = false;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
+            checkBox2.BackColor = Color.Transparent;
             checkBox2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             checkBox2.Location = new Point(206, 263);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(86, 25);
             checkBox2.TabIndex = 6;
             checkBox2.Text = "Kastriran";
-            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -128,6 +131,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = SystemColors.ButtonHighlight;
             pictureBox1.Location = new Point(23, 329);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(188, 130);
@@ -148,6 +152,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label1.Location = new Point(23, 63);
             label1.Name = "label1";
@@ -158,8 +163,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label2.Location = new Point(25, 24);
+            label2.Location = new Point(23, 22);
             label2.Name = "label2";
             label2.Size = new Size(32, 21);
             label2.TabIndex = 11;
@@ -168,6 +174,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label3.Location = new Point(23, 106);
             label3.Name = "label3";
@@ -178,6 +185,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label4.Location = new Point(23, 150);
             label4.Name = "label4";
@@ -188,6 +196,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label5.Location = new Point(23, 187);
             label5.Name = "label5";
@@ -214,6 +223,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label8.Location = new Point(27, 297);
             label8.Name = "label8";
@@ -233,6 +243,7 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
+            radioButton1.BackColor = Color.Transparent;
             radioButton1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             radioButton1.Location = new Point(130, 228);
             radioButton1.Name = "radioButton1";
@@ -240,11 +251,12 @@
             radioButton1.TabIndex = 19;
             radioButton1.TabStop = true;
             radioButton1.Text = "M";
-            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.UseVisualStyleBackColor = false;
             // 
             // radioButton2
             // 
             radioButton2.AutoSize = true;
+            radioButton2.BackColor = Color.Transparent;
             radioButton2.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             radioButton2.Location = new Point(206, 229);
             radioButton2.Name = "radioButton2";
@@ -252,11 +264,12 @@
             radioButton2.TabIndex = 20;
             radioButton2.TabStop = true;
             radioButton2.Text = "Ž";
-            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             label10.Location = new Point(27, 228);
             label10.Name = "label10";
@@ -277,9 +290,10 @@
             // 
             // btnSlika
             // 
+            btnSlika.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
             btnSlika.Location = new Point(223, 328);
             btnSlika.Name = "btnSlika";
-            btnSlika.Size = new Size(110, 23);
+            btnSlika.Size = new Size(110, 31);
             btnSlika.TabIndex = 23;
             btnSlika.Text = "Odaberi sliku";
             btnSlika.UseVisualStyleBackColor = true;
@@ -289,6 +303,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(384, 516);
             Controls.Add(btnSlika);
             Controls.Add(button1);
@@ -315,7 +330,8 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "UnosZivotinje";
-            Text = "UnosZivotinje";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Unos životinje";
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -116,6 +116,7 @@
             Controls.Add(btnFiltriranje);
             Controls.Add(btnPregled);
             Name = "Pocetna";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Azil za životinje";
             ResumeLayout(false);
         }

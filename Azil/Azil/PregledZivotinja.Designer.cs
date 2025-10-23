@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PregledZivotinja));
             label1 = new Label();
             pictureBox1 = new PictureBox();
             listBox1 = new ListBox();
@@ -41,15 +42,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe Print", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label1.Location = new Point(191, 29);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe Print", 15F);
+            label1.Location = new Point(145, 9);
             label1.Name = "label1";
-            label1.Size = new Size(110, 21);
+            label1.Size = new Size(181, 35);
             label1.TabIndex = 0;
             label1.Text = "Pregled životinja";
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.LavenderBlush;
             pictureBox1.Location = new Point(130, 116);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(232, 169);
@@ -68,6 +71,7 @@
             // 
             // textBox1
             // 
+            textBox1.BackColor = Color.LavenderBlush;
             textBox1.Location = new Point(130, 291);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -113,6 +117,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(484, 530);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -122,7 +127,8 @@
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Name = "PregledZivotinja";
-            Text = "PregledZivotinja";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Pregled životinja";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
